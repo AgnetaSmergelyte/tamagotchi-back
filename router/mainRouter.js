@@ -8,4 +8,5 @@ router.get("/digimon", getDigimon);
 router.get("/sellEgg/:chosenEggIndex", sellEgg);
 router.get("/feed", feedDigimon);
 
+
 module.exports = router;
